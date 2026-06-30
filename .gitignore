@@ -1,0 +1,12 @@
+# MCP 配置含明文密钥/Token，禁止提交
+.kiro/settings/mcp.json
+
+# 常见敏感文件
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# 系统垃圾文件
+.DS_Store
